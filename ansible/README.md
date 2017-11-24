@@ -7,7 +7,7 @@ Container will share your ssh-agent for better ssh compatibility
 #### pre-requisites
 your user must be in docker group, or you'll be having ssh compatibility errors.
 
-` sudo usermod -aG docker <user-name> `
+` sudo usermod -aG docker $(whoami) `
 
 ### Example 
 

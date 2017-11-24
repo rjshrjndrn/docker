@@ -9,6 +9,8 @@ your user must be in docker group, or you'll be having ssh compatibility errors.
 
 ` sudo usermod -aG docker $(whoami) `
 
+after this you'll have to logout and login to your account
+
 ### Example 
 
 If you're using ansible 1.9.5

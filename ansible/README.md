@@ -1,3 +1,9 @@
+### Important notes
+
+Container will be using your ssh-agent for better ssh compatibility
+
+` -v $SSH_AUTH_SOCK:/ssh-agent:ro `
+
 ### Example 
 
 If you're usiong ansible 1.9.5

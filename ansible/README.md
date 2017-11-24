@@ -1,6 +1,6 @@
 ### Important notes
 
-Container will be using your ssh-agent for better ssh compatibility
+Container will share your ssh-agent for better ssh compatibility
 
 ` -v $SSH_AUTH_SOCK:/ssh-agent:ro `
 

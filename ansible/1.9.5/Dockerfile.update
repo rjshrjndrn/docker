@@ -1,4 +1,0 @@
-FROM rjshrjndrn/ansible:1.9.5-alpine3.5
-ENV SSH_AUTH_SOCK=/ssh-agent
-VOLUME /ssh-agent
-CMD ["/usr/bin/ansible", "--version"]
